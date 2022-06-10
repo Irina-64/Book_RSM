@@ -1,0 +1,26 @@
+{
+	"name": "RSM Academy",
+  "short_name": "RSM Academy",
+  "lang": "ru",
+  "dir": "ltr",
+	"start_url": "",
+  "scope": "",
+	"display": "browser",
+	"orientation": "any",
+	"theme_color": "#212744",
+	"background_color": "#212744",
+	"icons": [
+		{
+      "src": "/meta/javascript-favicon.ico",
+      "sizes": "16x16 32x32 64x64 128x128"
+    }, {
+			"src": "/meta/javascript-touch-icon.png",
+			"sizes": "350x350",
+			"type": "image/png"
+		}, {
+			"src": "/meta/favicon.svg",
+			"sizes": "any",
+			"type": "image/svg"
+		}
+	]
+}
