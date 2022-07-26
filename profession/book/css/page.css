@@ -1,0 +1,44 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif; /* Семейство шрифтов */
+  font-size: 12pt; /* Размер основного шрифта в пунктах  */
+  background-color: transparent; /* Цвет фона веб-страницы */
+  color: #000; /* Цвет основного текста */ 
+}
+h1 {
+  color: #000; /* Цвет заголовка */
+  font-size: 24pt; /* Размер шрифта в пунктах */
+  font-family: Geneva, Arial, Helvetica, sans-serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+}
+p {
+  text-align: justify; /* Выравнивание по ширине */
+  margin-left: 5px; /* Отступ слева в пикселах */
+  margin-right: 5px; /* Отступ справа в пикселах */
+ }
+
+figure {
+float: left;
+border: 1px solid #333; /* Параметры рамки */
+}
+
+.after_pic {
+clear: both;
+}
+
+.scheme-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.scheme-wrapper h6{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin: 0;
+	font-weight: 150;
+	font-size: 20px;
+	line-height: 20px;	
+}
